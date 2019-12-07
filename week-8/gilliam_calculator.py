@@ -1,3 +1,10 @@
+# ===========================================
+# Title: Exercise 8.3
+# Author: Cory Gilliam
+# Date: 7 Dec 2019
+# Modified By:
+# Description: Python Calculator
+# ===========================================
 def add(intOne, intTwo):
   return intOne + intTwo
 
