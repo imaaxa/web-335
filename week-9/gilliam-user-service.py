@@ -10,15 +10,15 @@
 # x  1.Create a new folder under your web-335 directory and name it week-9.
 # x  2.Add a new file under your week-9 directory and name it < lastname > -user-service.py
 # x  3.Import
-#     a.pymongo
-#     b.pprint
-#     c.datetime
+# x    a.pymongo
+# x    b.pprint
+# x    c.datetime
 # x  4.Connect to your local MongoDB instance
 # x  5.Create a new user document(follow the code provided in the “Create Document Example”)
-#   6.Insert the new user document(follow the code provided in the “Create Document Example”)
-#   7.Output the auto-generated user_id
-#   8.Query the users collection using the “find_one()” method(follow the code provided in the FindOne Query Example 2)
-#   9.Print the document returned from the FindOne Query
+# x  6.Insert the new user document(follow the code provided in the “Create Document Example”)
+# x  7.Output the auto-generated user_id
+# x  8.Query the users collection using the “find_one()” method(follow the code provided in the FindOne Query Example 2)
+# x  9.Print the document returned from the FindOne Query
 # Note: You are essentially recreating the “Create Document Example”
 
 # Imports
