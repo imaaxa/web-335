@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>114</x>
+      <y>348</y>
+      <w>126</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>USERS
+--
+firstName
+secondName
+userName
+password
+age
+gender
+phone
+email
+accessLevel
+active
+_id
+_startDate
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>534</y>
+      <w>102</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Payment
+--
+memberAccount
+cardName
+cardNumber
+cardExpiration
+cardCVC
+addressId</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>510</y>
+      <w>84</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>Address
+--
+country
+street1
+street2
+city
+state
+postalCode
+misc
+type
+_id</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>450</y>
+      <w>90</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Features:
+--
+feature
+level</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>492</y>
+      <w>48</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>m1=1.m</panel_attributes>
+    <additional_attributes>60.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>474</y>
+      <w>78</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>m1=1.1</panel_attributes>
+    <additional_attributes>110.0;120.0;40.0;120.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>348</y>
+      <w>96</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Access Level
+--
+_userId
+_featureId</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>372</y>
+      <w>90</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>m2=1.m</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>348</x>
+      <y>396</y>
+      <w>36</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>m2=m.m</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>
